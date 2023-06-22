@@ -1,0 +1,92 @@
+
+/* Root */
+
+body {
+  max-width: 1940px;
+  height: auto;
+}
+
+button a, li a {
+  color: black;
+  text-decoration: none;
+}
+
+
+/* 
+ >>> CURRENTLY NOT IN USE <<<
+
+.background-container {
+  width: 100%;
+  height: 100%;
+}
+.bg-image {
+  width: 100%;
+  background-image: url('../img/Background.png'); 
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+
+} */
+
+/* Hero */
+
+.hero-banner {
+  max-width: 100%;
+  width: auto;
+}
+
+/* Offcanvas */
+
+.offcanvas-btn-text, .offcanvas-li {
+  font-family: 'Playfair Display', serif;
+  font-size: larger;
+}
+  
+.offcanvas-button {
+    position: fixed;
+    margin: 10px 0 0 10px;
+  }
+  .offcanvas-button p {
+    margin-bottom: 0;
+  }
+
+  .offcanvas-logo {
+    display: flex;
+    justify-content: center;
+  }
+
+  .offcanvas-li {
+    list-style-type: none;
+    padding-bottom: 100px;
+    font-size: 300%;
+  }
+
+  .gallery-item {
+    max-width: 100%;
+  } 
+
+  .bottom-link-h1 h1 {
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 2rem;
+  }
+  
+.bottom-link-h1 p {
+  font-family: 'Comfortaa', cursive;
+}
+
+/* Scrollout */
+
+[data-scroll] {
+  transition: opacity .5s;
+}
+[data-scroll="in"] {
+  opacity: 1;
+}
+[data-scroll="out"] {
+  opacity: 0;
+}
+
+
+
+  
