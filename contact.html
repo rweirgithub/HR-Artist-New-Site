@@ -41,7 +41,7 @@
                 <li><a href="index.html">Home</a></li>
                 <li><a href="https://folksy.com/shops/TheHedgerowArtist" active target="_blank">Folksy</a></li>
                 <li><a href="exhibitions.html">Exhibitions</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li><a href="contact.html">Contact</a></li>
             </ul>
         </div>
     </div>
@@ -67,12 +67,16 @@
                         <h2 class="col-12">If you have any special requests, please send me a message on social media or using the form below.</h2>
                     </div>
                     <div class="form-group">
+                        <label for="name-input">Name</label>
+                        <input type="text" class="form-control" id="name-input" placeholder="Your name" name="name" required>
+                    </div>
+                    <div class="form-group">
                         <label for="email-input">Email address</label>
-                        <input type="email" class="form-control" id="email-input" placeholder="name@example.com">
+                        <input type="email" class="form-control" id="email-input" placeholder="name@example.com" name="email" required>
                     </div>
                     <div class="form-group">
                         <label for="message-input">Example textarea</label>
-                        <textarea class="form-control" id="message-input" rows="3"></textarea>
+                        <textarea class="form-control" id="message-input" rows="3" name="text" required></textarea>
                     </div>
                     <div class="form-group">
                         <button type="submit" class="btn btn-outline-dark bg-white" id="submit-btn">Submit</button>
