@@ -11,7 +11,6 @@ button a, li a {
   text-decoration: none;
 }
 
-
 /* 
  >>> CURRENTLY NOT IN USE <<<
 
@@ -87,6 +86,105 @@ button a, li a {
   opacity: 0;
 }
 
-
-
+/* Exhibitions Gallery */
   
+.gallery {
+  max-width: 1500px;
+  margin-top: 10px;
+}
+
+.gallery-card img {
+  max-width: 100%;
+  max-height: 90%;
+}
+
+#extended-gallery {
+  display: none;
+}
+
+#extended-gallery-btn {
+  display: contents;
+}
+
+
+/* Footer */
+
+footer {
+    width: 100%;
+    margin-top: 5vh;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.socials {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 3rem 0;
+
+}
+
+.socials li {
+    margin: 0 10px;
+}
+
+.socials li a {
+    padding: .5em;
+}
+
+ul {
+    padding: 0;
+}
+
+i {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.footer-design-link {
+    bottom: 0;
+    left: 0;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.footer-div a {
+    color: #0A47B0;
+    text-decoration: underline;
+}
+
+.footer-copyright {
+    display: flex;
+    justify-content: flex-end;
+}
+
+@media (max-width: 1000px) {
+    .footer-div p {
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+/* Contact page  */
+
+label {
+    margin-top: 10px;
+}
+
+form {
+    align-items: center;
+    margin-left: auto;
+    font-family: var(--main-font-fam-3);
+}
+
+#submit-btn {
+  margin-top: 1rem;
+}
