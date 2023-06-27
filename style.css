@@ -20,7 +20,7 @@ button a, li a {
 }
 .bg-image {
   width: 100%;
-  background-image: url('../img/Background.png'); 
+  background-image: url('../img/Background.jpg'); 
   height: 100vh;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -33,6 +33,7 @@ button a, li a {
 .hero-banner {
   max-width: 100%;
   width: auto;
+  height:;
 }
 
 /* Offcanvas */
@@ -105,6 +106,18 @@ button a, li a {
 #extended-gallery-btn {
   display: contents;
 }
+
+/* .bg-gallery-card {
+  position: fixed;
+  z-index: -1;
+}
+
+.fg-gallery-card {
+  position: fixed;
+  z-index: 2;
+} */
+
+
 
 
 /* Footer */
